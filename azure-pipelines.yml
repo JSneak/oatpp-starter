@@ -22,7 +22,7 @@ jobs:
           mkdir build
       - script: |
           cmake ..
-          sudo make
+          sudo make 
         displayName: 'CMake'
         workingDirectory: build
       - script: |
